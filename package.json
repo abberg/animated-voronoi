@@ -1,0 +1,23 @@
+{
+  "name": "voronoi-particles",
+  "version": "0.0.0",
+  "description": "Animated voronoi particles with D3",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "Andrew Berg",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.0",
+    "babel-preset-env": "^1.5.2",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "dependencies": {
+    "d3": "^4.9.1",
+    "poisson-disc-sampler": "^1.1.0",
+    "victor": "^1.1.0"
+  }
+}
